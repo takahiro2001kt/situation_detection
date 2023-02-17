@@ -12,3 +12,7 @@ tf_pose_estimation_edit_fileは、tf-pose-estimationののtf_pose内で変更を
 3. CNNのアルゴリズムを用いて、姿勢推定を行う。（cnn_folfer.py）
 4. 学習したモデルを利用して、実際に姿勢推定を行う。（tf_pose/run_webcam.pyを実行）
 ※ make_pickle.pyとcnn_pickle.pyは、pickeleファイルを作成する際に使用する。
+
+# 姿勢推定中のイメージ
+run_webcam.pyを実行中の動作イメージ
+![image](https://user-images.githubusercontent.com/67308009/219766547-70fefe2e-23dc-468d-a9a4-d4a445104e33.png)
